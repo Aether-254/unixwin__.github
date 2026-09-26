@@ -5,11 +5,11 @@ Native Unix-style command-line infrastructure for Windows and AI agents.
 UNIXWIN builds a Windows-native command stack for workflows that expect Unix commands, Bash-like scripting, pipelines, and agent-friendly automation without requiring WSL.
 
 ```text
-winuxsh
+niubash
 ├── rubash        Bash-compatible shell engine written in Rust
 └── NiuBash      Native Windows coreutils layer
 
-oh-my-niu     Themes, plugins, and shell configuration
+oh-my-niu         Themes, plugins, and shell configuration
 ```
 
 ## Start Here
@@ -35,11 +35,11 @@ The primary user-facing shell. `niubash` combines `rubash` for Bash-compatible l
 
 ### [WinuxCmd](https://github.com/unixwin/WinuxCmd)
 
-A lightweight native Windows implementation of GNU-style command tools. It can be used standalone today, and its long-term role in UNIXWIN is to serve as the coreutils layer for `winuxsh`.
+A lightweight native Windows implementation of GNU-style command tools. It can be used standalone today, and its long-term role in UNIXWIN is to serve as the coreutils layer for `niubash`.
 
 ### [rubash](https://github.com/unixwin/rubash)
 
-A Bash-compatible shell engine written in Rust. It provides the parser, executor, builtins, shell language behavior, and script compatibility layer used by `winuxsh`.
+A Bash-compatible shell engine written in Rust. It provides the parser, executor, builtins, shell language behavior, and script compatibility layer used by `niubash`.
 
 ### [oh-my-niu](https://github.com/unixwin/oh-my-niu)
 
